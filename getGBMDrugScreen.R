@@ -4,7 +4,7 @@ library(abind)
 library(PharmacoGx)
 
 input_dir <- "/pfs/downloadGBMData/"
-input_annotation <- "/pfs/annotation/"
+input_annotation <- "/pfs/downAnnotations/"
 out_dir <- "/pfs/out/" 
 # functions <- "/pfs/getGBMCellData/functions.R"
 
