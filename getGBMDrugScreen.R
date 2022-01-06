@@ -6,12 +6,12 @@ library(PharmacoGx)
 input_dir <- "/pfs/downloadGBMData/"
 input_annotation <- "/pfs/annotation/"
 out_dir <- "/pfs/out/" 
-functions <- "/pfs/getGBMCellData/functions.R"
+# functions <- "/pfs/getGBMCellData/functions.R"
 
 # input_dir <- "~/Documents/pfs/downloadGBMData/"
 # input_annotation <- "~/Documents/pfs/annotation/"
 # out_dir <- "~/Documents/pfs/getGBMDrugScreenObjects/"
-# functions <- "./functions.R"
+functions <- "https://github.com/BHKLAB-Pachyderm/getGBMCellData/raw/main/functions.R"
 
 source(functions)
 
